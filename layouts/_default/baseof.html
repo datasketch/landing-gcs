@@ -4,7 +4,8 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>{{ .Site.BaseURL }}</title>
+  <meta name="description" content="Herramienta de estimación de biodiversidad y captura de carbono del proyecto Ganadería Colombiana Sostenible.">
+  <title>{{ .Site.Title }}</title>
   {{ $style := resources.Get "tailwind.css" | postCSS | minify }}
   <link rel="stylesheet" href="{{ $style.Permalink }}">
 </head>
