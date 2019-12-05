@@ -1,9 +1,9 @@
-<header class="bg-gable-green bg-cover bg-no-repeat bg-center" style="background-image: url({{.Site.BaseURL}}images/hero.webp);">
+<header class="bg-gable-green bg-cover bg-no-repeat bg-right-top md:bg-center" style="background-image: url({{.Site.BaseURL}}images/hero.webp);">
   <nav class="container flex items-center justify-end py-4">
-    <a href="" target="_blank" class="mr-4">
+    <a href="" target="_blank" class="mr-6">
       <img src='{{ "images/facebook.svg" | absURL }}' alt="facebook">
     </a>
-    <a href="" target="_blank" class="mr-4">
+    <a href="" target="_blank" class="mr-6">
       <img src='{{ "images/twitter.svg" | absURL }}' alt="twitter">
     </a>
     <a href="" target="_blank">
@@ -11,13 +11,13 @@
     </a>
   </nav>
   <div class="content py-16">
-    <div class="flex items-center">
-      <div class="header__image">
-        <img src='{{ "images/logo.webp" | absURL}}' alt="Ganadería Colombiana Sostenible logo">
+    <div class="flex flex-col md:items-center md:flex-row">
+      <div class="header__image mr-10">
+        <img src='{{ "images/logo.webp" | absURL}}' class="w-12 md:w-24" alt="Ganadería Colombiana Sostenible logo">
       </div>
       <div class="header__title">
-        <h3 class="text-gable-green uppercase font-semibold font-barlow-condensed">Herramienta</h3>
-        <h1 class="text-white uppercase font-semibold font-barlow-condensed">Estimación de biodiversidad y captura de co<sub>2</sub></h1>
+        <h3 class="text-gable-green uppercase font-semibold font-barlow-condensed text-3xl lg:text-4xl">Herramienta</h3>
+        <h1 class="text-white uppercase font-semibold font-barlow-condensed leading-none text-4xl lg:text-6xl md:max-w-4xl">Estimación de biodiversidad y captura de co<sub>2</sub></h1>
       </div>
     </div>
   </div>
