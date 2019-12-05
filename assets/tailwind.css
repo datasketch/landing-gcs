@@ -1,0 +1,35 @@
+/* purgecss start ignore */
+@tailwind base;
+
+@font-face {
+  src: url('./fonts/Barlow-Regular.ttf');
+  font-family: 'Barlow';
+  font-weight: 400;
+}
+
+@font-face {
+  src: url('./fonts/BarlowCondensed-Regular.ttf');
+  font-family: 'Barlow Condensed';
+  font-weight: 400;
+}
+
+@font-face {
+  src: url('./fonts/BarlowCondensed-SemiBold.ttf');
+  font-family: 'Barlow Condensed';
+  font-weight: 600;
+}
+
+@tailwind components;
+
+.content {
+  @apply w-full px-4 mx-auto;
+}
+
+@screen md {
+  .content {
+    @apply w-5/6;
+  }
+}
+/* purgecss end ignore */
+
+@tailwind utilities;

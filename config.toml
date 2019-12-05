@@ -1,0 +1,4 @@
+baseURL = "/landing-gcs/"
+languageCode = "es-ES"
+title = "Ganadería colombiana sostenible"
+publishDir = 'docs'
