@@ -1,19 +1,27 @@
 <footer class="py-16 bg-gable-green bg-cover bg-no-repeat bg-center" style="background-image: url({{.Site.BaseURL}}images/footer.webp);">
   <div class="content">
     <div class="text-white flex flex-col md:flex-row md:flex-wrap md:items-center md:px-4">
-      <div class="w-full md:w-1/2 md:px-4 lg:w-1/4">
+      <div class="w-full md:w-1/2 md:px-4 lg:w-1/6">
         <img src='{{ "images/logo.webp" | absURL }}' alt="logo ganadería colombiana sostenible" class="w-20">
       </div>
-      <div class="w-full md:w-1/2 md:px-4 lg:w-1/4">
+      <div class="w-full md:w-1/2 md:px-4 lg:w-1/6">
         <p class="font-semibold uppercase font-barlow-condensed text-lg md:text-xl">Comparte</p>
+        <div class="flex items-center mt-2">
+          <a href="" target="_blank" class="mr-4">
+            <img src='{{ "images/facebook.svg" | absURL }}' alt="">
+          </a>
+          <a href="" target="_blank">
+            <img src='{{ "images/twitter.svg" | absURL }}' alt="">
+          </a>
+        </div>
       </div>
-      <div class="w-full md:w-1/2 md:px-4 lg:w-1/4">
+      <div class="w-full md:w-1/2 md:px-4 lg:w-2/6">
         <p class="font-semibold uppercase font-barlow-condensed text-lg md:text-xl">Contáctanos</p>
         <p class="break-words">
           <a href="mailto:ganaderiasostenible@fedegan.org.co">ganaderiasostenible@fedegan.org.co</a>
         </p>
       </div>
-      <div class="w-full md:w-1/2 md:px-4 lg:w-1/4">
+      <div class="w-full md:w-1/2 md:px-4 lg:w-2/6">
         <img src='{{ "images/creative_commons.svg" | absURL}}' alt="creative commons" class="block mx-auto">
         <p class="text-sm mt-2">Todo el material en esta página, cuando no se indique lo contrario, es CC-BY-SA. Si reúsas o adaptas recursos de esta página por favor vincúlalos y referéncialos</p>
       </div>
