@@ -9,11 +9,11 @@
   {{ $style := resources.Get "tailwind.css" | postCSS | minify }}
   <link rel="stylesheet" href="{{ $style.Permalink }}">
 </head>
-<body class="font-barlow">
-  {{ partial "header.html" . }}
-  <main>
+<body class="font-barlow min-h-screen flex flex-col">
+  <main class="flex-grow">
     {{ block "main" . }}{{ end }}
   </main>
   {{ partial "footer.html" . }}
+  {{ block "js" . }}{{ end }}
 </body>
 </html>
